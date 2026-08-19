@@ -8,4 +8,6 @@ langchain-core
 python-dotenv
 langchain-chroma
 langchain-ollama
-
+gradio
+langchain-groq
+lanchain-huggingface

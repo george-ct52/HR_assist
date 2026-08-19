@@ -60,6 +60,14 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+# Local project SQLite DB created by db_creator/seed
+data/employees.db
+
+# Chroma vector DB (persisted embeddings)
+data/chroma_db/
+
+# Local VSCode workspace settings
+.vscode/
 
 # Flask stuff:
 instance/
