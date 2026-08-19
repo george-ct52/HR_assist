@@ -1,10 +1,10 @@
 from pathlib import Path
 
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
 
 
-PERSIST_DIR = Path(__file__).parent / "data" / "chroma_db"
+PERSIST_DIR = Path(__file__).parent.parent / "data" / "chroma_db"
 
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
@@ -28,6 +28,4 @@ def query_policy_docs(question: str, k: int = 4) -> str:
 
 
 if __name__ == "__main__":
-    print(query_policy_docs(
-        "Can unused leave be carried forward?"
-    ))
+   print(query_policy_docs("What is the company's maternity leave policy?"))
