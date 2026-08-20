@@ -11,6 +11,9 @@ PERSIST_DIR = Path(__file__).parent / "data" / "chroma_db"
 
 
 
+
+
+
 def build():
 
     loader = DirectoryLoader(

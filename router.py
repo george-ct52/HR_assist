@@ -2,7 +2,7 @@
 
 SQL_KEYWORDS = [
     "salary", "leave balance", "leave days", "joining date", "date of joining",
-    "employee id", "manager", "department", "attendance", "how many leave",
+    "employee id", "manager", "department", "attendance", "how many leave","my department",
 ]
 POLICY_KEYWORDS = [
     "policy", "policies", "rules", "eligibility", "eligible", "procedure",
