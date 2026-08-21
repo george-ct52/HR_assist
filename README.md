@@ -237,6 +237,7 @@ The routing happens **once before retrieval**, keeping the workflow simple and p
 
 ---
 
+```text
 # Project Structure
 
 HR_assist/
@@ -264,7 +265,7 @@ HR_assist/
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
